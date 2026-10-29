@@ -10,17 +10,17 @@ The project uses an end-to-end analysis pipeline:
 NFL Play-By-Play Data -> Python ETL -> MySQL Database -> SQL Analysis -> Power BI Dashboard
 
 #Technologies
-  **Python
-  **Pandas
-  **MySQL
-  **SQLAlchemy
-  **PowerBI
-  **nflreadpy
+  **Python**
+  **Pandas**
+  **MySQL**
+  **SQLAlchemy**
+  **PowerBI**
+  **nflreadpy**
 
 ## Business Question
 How Often do NFL quarterbacks win despite producing negative EPA?
 
 ## Key Findings
-  **Analyzed 2,341 quarterback game performances
-  **Identified 285 wins despite negative EPA
-  ** Approximately 12.2% of quarterback performances won despite negative EPA
+  **Analyzed 2,341 quarterback game performances**
+  **Identified 285 wins despite negative EPA**
+  ** Approximately 12.2% of quarterback performances won despite negative EPA**
