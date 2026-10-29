@@ -14,7 +14,7 @@ print(file_path.exists())
 pbp = pd.read_parquet(file_path)
 
 # Connect to MySQL database
-engine = create_engine("mysql+pymysql://root:Messi10?@localhost:3306/nfl_analytics")
+engine = create_engine("mysql+pymysql://root:password@localhost:3306/nfl_analytics")
 
 # Extract unique teams
 teams = (
