@@ -1,0 +1,22 @@
+from sqlalchemy import create_engine
+from nflreadRpy import nflreadR
+import pandas as pd
+#import nflreadpy as nfl
+#from nflreadRpy import nflreadR
+
+print("Pandas connected successfully!")
+#print("NFL API connected successfully!")
+
+seasons = [2023,2024,2025,2026]
+pbp = nflreadR.import_pbp(seasons)
+
+pbp.to_parquet("pbp_2023_2026.parquet")
+print("Download PBP:", pbp.shape)
+
+engine = create_engine("mysql+pymysql://root:Messi10?@localhost:3306/nfl_analytics")
+
+try:
+    engine.connect()
+    print("Connected Successfully!")
+except Exception as e:
+    print("Connection failed:", e)
