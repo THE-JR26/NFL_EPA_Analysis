@@ -10,7 +10,7 @@ pbp = nflreadR.import_pbp(seasons)
 pbp.to_parquet("pbp_2023_2026.parquet")
 print("Download PBP:", pbp.shape)
 
-engine = create_engine("mysql+pymysql://root:Messi10?@localhost:3306/nfl_analytics")
+engine = create_engine("mysql+pymysql://root:password?@localhost:3306/nfl_analytics")
 
 try:
     engine.connect()
