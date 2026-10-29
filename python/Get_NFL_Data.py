@@ -1,11 +1,8 @@
 from sqlalchemy import create_engine
 from nflreadRpy import nflreadR
 import pandas as pd
-#import nflreadpy as nfl
-#from nflreadRpy import nflreadR
 
 print("Pandas connected successfully!")
-#print("NFL API connected successfully!")
 
 seasons = [2023,2024,2025,2026]
 pbp = nflreadR.import_pbp(seasons)
