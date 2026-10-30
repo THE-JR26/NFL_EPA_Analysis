@@ -15,7 +15,7 @@ NFL Play-By-Play Data -> Python ETL -> MySQL Database -> SQL Analysis -> Power B
   **MySQL,**
   **SQLAlchemy,**
   **PowerBI,**
-  **nflreadpy**
+  **nflreadpy.**
 
 ## Business Question
 How Often do NFL quarterbacks win despite producing negative EPA?
