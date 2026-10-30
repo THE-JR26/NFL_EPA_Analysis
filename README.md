@@ -9,7 +9,7 @@ The goal is to identify games where quarterbacks produce negative EPA, but their
 The project uses an end-to-end analysis pipeline:
 NFL Play-By-Play Data -> Python ETL -> MySQL Database -> SQL Analysis -> Power BI Dashboard
 
-#Technologies
+# Technologies
   **Python**
   **Pandas**
   **MySQL**
