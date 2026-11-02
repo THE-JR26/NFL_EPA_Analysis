@@ -18,7 +18,7 @@ NFL Play-By-Play Data -> Python ETL -> MySQL Database -> SQL Analysis -> Power B
   **nflreadpy.**
 
 ## Business Question
-How Often do NFL quarterbacks win despite producing negative EPA?
+How often do NFL quarterbacks win despite producing negative EPA?
 
 ## Key Findings
   **Analyzed 2,341 quarterback game performances.**
