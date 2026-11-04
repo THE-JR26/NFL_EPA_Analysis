@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project analyzes NFL quaterback performance using Expected Point Added(EPA).
+This project analyzes NFL quarterback performance using Expected Points Added(EPA).
 
 The goal is to identify games where quarterbacks produce negative EPA, but their team still won the game.
 
